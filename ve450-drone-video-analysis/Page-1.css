@@ -16,22 +16,27 @@
 }
 
 .u-section-1 .u-input-1 {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .u-section-1 .u-input-2 {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .u-section-1 .u-input-3 {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .u-section-1 .u-btn-1 {
   background-image: none;
-  border-style: solid;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    border-style: solid;
+  }
 }
 
 @media (max-width: 767px) {
