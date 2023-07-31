@@ -1,8 +1,8 @@
 // url of where to download the video from server
-let server_url = "http://49.235.101.153:8000/video/";
+let server_url = "http://49.235.101.153:5000/video/";
 // let server_url = "http://127.0.0.1:8000/video/";
 
-let window_size = 8
+let window_size = 10
 let fetch_interval = 0.2
 let move_detech_interval = 0.1
 
